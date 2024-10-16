@@ -8,7 +8,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const MainLayout = () => {
   return (
-    <div>
+    <div style={{marginLeft: '85px'}}>
       <Header />
       <Sidenav />
       <ToastContainer />

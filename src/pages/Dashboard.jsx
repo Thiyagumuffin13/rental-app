@@ -1,10 +1,11 @@
 import React from 'react';
+import DashboardSub from './DashboardSub';
 
 const Dashboard = () => {
   return (
     <div>
-      <h2 className="text-2xl">Dashboard</h2>
-      <p>Welcome to the dashboard!</p>
+       <p>Main dashboard</p>
+       <DashboardSub help='' test='this is to notifyt the ope'/>
     </div>
   );
 };
